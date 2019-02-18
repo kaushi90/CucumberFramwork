@@ -1,0 +1,73 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Send message to company",
+        "description": "",
+        "id": "validate-contact-us-scenario;send-message-to-company",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "open chrome browser and enter URL",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "set subject dropdown ,email,orderRef",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "upload file",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "click send button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "display successfully send message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "validate contact us scenario",
+    "description": "",
+    "id": "validate-contact-us-scenario",
+    "keyword": "Feature",
+    "uri": "features/contactus.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ContactUsTest"
+      }
+    ]
+  }
+]
